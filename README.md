@@ -12,7 +12,7 @@ We make online business success simpler
 - import ```team-blue-test.postman_collection.json``` into postman
 - prepar your postman ```ENV``` then try it
 
-### notice 
+### notice :
 endpoints of this project is protecting by a auth system,
 for fast try you can remove the ```['auth:api']``` middleware from process route
 
