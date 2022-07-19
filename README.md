@@ -1,4 +1,4 @@
-<p align="center"><a href="https://team.blue/" target="_blank"><img src="https://media.cdn.teamtailor.com/images/s3/teamtailor-production/logotype-v3/image_uploads/8749521e-c9ba-4553-b1f6-a1d0ca6db681/original.png" width="400"></a></p>
+<p align="center"><a href="https://team.blue/" target="_blank"><img src="https://wcmassets.kbc.be/content/dam/jobs/maak-het-mee/team-blue/i-am-team-blue.jpg/_jcr_content/renditions/cq5dam.web.960.9999.jpeg.cdn.res/last-modified/1605791361009/cq5dam.web.960.9999.jpeg" width="400"></a></p>
 
 ## About TB
 We make online business success simpler
@@ -10,9 +10,17 @@ We make online business success simpler
 - ```./vendor/bin/sail artisan migrate```
 - then the application serve over the ```http://localhost:8000```
 - import ```team-blue-test.postman_collection.json``` into postman
+- prepar your postman ```ENV``` then try it
 
-### Notice:
-Register as user befor going to ```management``` routes
+### notice 
+endpoints of this project is protecting by a auth system,
+for fast try you can remove the ```['auth:api']``` middleware from process route
+
+## Code
+in this project following concepts has been used :
+- Service Pattern
+- SOILD Princples
+- Dependency Injection
 
 ## Telescope
 after registration as user go to ``` independesk/app/Providers/TelescopeServiceProvider.php ```
