@@ -10,7 +10,7 @@ We make online business success simpler
 - ```./vendor/bin/sail artisan migrate```
 - then the application serve over the ```http://localhost:8000```
 - import ```team-blue-test.postman_collection.json``` into postman
-- prepar your postman ```ENV``` then try it
+- prepar your postman's ```ENV```, then try it
 
 ### notice :
 endpoints of this project is protecting by a auth system,
