@@ -23,7 +23,7 @@ in this project following concepts has been used :
 - Dependency Injection
 
 ## Telescope
-after registration as user go to ``` independesk/app/Providers/TelescopeServiceProvider.php ```
+after registration as user go to ``` TB-test/app/Providers/TelescopeServiceProvider.php ```
 then add your user's email in ``` gate ``` method:
 ```
  /**
