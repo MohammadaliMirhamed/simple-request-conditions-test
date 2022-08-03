@@ -1,8 +1,3 @@
-<p align="center"><a href="https://team.blue/" target="_blank"><img src="https://media.cdn.teamtailor.com/images/s3/teamtailor-production/logotype-v3/image_uploads/8749521e-c9ba-4553-b1f6-a1d0ca6db681/original.png" width="250"></a></p>
-
-## About Team.Blue
-We make online business success simpler
-
 ## Quick Start
 - Create a copy from ```.env.example``` and name it as ```.env```
 - ```composer install```
@@ -23,7 +18,7 @@ in this project following concepts has been used :
 - Dependency Injection
 
 ## Telescope
-after registration as user go to ``` TB-test/app/Providers/TelescopeServiceProvider.php ```
+after registration as user go to ``` /app/Providers/TelescopeServiceProvider.php ```
 then add your user's email in ``` gate ``` method:
 ```
  /**
